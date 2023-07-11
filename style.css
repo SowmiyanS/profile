@@ -19,6 +19,7 @@
 }
 
 #name {
+	align-self: end;
 	order: -2;
 }
 
@@ -32,4 +33,12 @@
 	margin: 5px 25px 5px 5px;
 	color: white;
 	background: tomato;
+}
+
+
+.initial {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
