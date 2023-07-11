@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.root {
+	width: 100vw;
+	height: 100vh;
+	/* background: tomato; */
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: center;
+	background: lightgrey;
+	height: 50px;
+}
+
+
+#contact {
+	border-radius: 5px;
+	padding: 8px;
+	margin: 5px 25px 5px 5px;
+	color: white;
+	background: tomato;
+}
