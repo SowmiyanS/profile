@@ -18,6 +18,13 @@
 	height: 50px;
 }
 
+#name {
+	order: -2;
+}
+
+#link {
+	margin: 5px;
+}
 
 #contact {
 	border-radius: 5px;
