@@ -3,28 +3,272 @@
 	padding: 0;
 }
 
+.nav {
+	height: 50px;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav #navl #em {
+	border-radius: 3px;
+	padding: 5px;
+}
+.nav #navl #em:hover {
+	border:2px solid grey;
+}
+#navr {
+	color: orangered;
+	padding: 5px;
+}
+#navl {
+	display: flex;
+	flex-direction: row;
+	gap: 1em;
+	padding: 5px;
+	align-items: center;
+	justify-content: center;
+}
+#navl a {
+	text-decoration: none;
+	color: grey;
+}
+#navl button {
+	all: unset;
+	color: white;
+	background: orangered;
+	padding: 5px;
+	border-radius: 3px;
+}
+#navl button:focus {
+	outline: 1px solid orangered;
+}
+
+
+
+.home {
+	height: 400px;
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#homee {
+	color: white;
+}
+
+
+
+.bio {
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+#photo {
+	/*height: 250px;
+	width: 250px;
+	border-radius: 50%;*/
+	margin-left: 50px;
+}
+#photoi {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+#biog {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+#biog h2 {
+	color: orangered;
+}
+#biog div button {
+	all: unset;
+	color: white;
+	background: orangered;
+	padding: 5px;
+	border-radius: 3px;
+}
+#biog div button:focus {
+	outline: 1px solid orangered;
+}
+
+
+
+.portfolio {
+	background: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 5em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.titles {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.1em;
+}
+#line {
+	width: 500px;
+}
+.boxes {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+.box {
+	background: white;
+	width: 300px;
+	height: 200px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+}
+.box h3 {
+	color: black;
+}
+.box p {
+	color: black;
+}
+#codeicon {
+	background: orangered;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.skills {
+	width: 100%;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+#skills {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	gap: 1em;
+}
+#skills p {
+	font-size: 12px;
+}
+#skilll {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+}
+#skillr {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+}
+.prgrscnt {
+	height: 5px;
+	width: 400px;
+	background: grey;
+	margin-top: 5px;
+}
+.prgrsbr {
+	height: 5px;
+	width: 75%;
+	background: orangered;
+}
+
+
+/* {
+	margin: 0;
+	padding: 0;
+}
+
 .root {
 	width: 100vw;
 	height: 100vh;
-	/* background: tomato; */
+	 background: tomato; 
 }
 
 .nav {
 	display: flex;
 	flex-direction: row;
-	justify-content: right;
-	align-items: center;
+	justify-content: center;
+	align-items: space-around;
 	background: lightgrey;
 	height: 50px;
 }
 
+.bio {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	
+	background: grey;
+	height: 400px;
+}
+
+#image {
+	border-radius: 50%;
+}
+
+#im {
+	width: 250px;
+	border-radius: 50%;
+}
+
 #name {
-	align-self: end;
-	order: -2;
+	padding: 5px;
+	margin: 5px;
+}
+
+#links {
+	display: flex;
 }
 
 #link {
+	padding: 5px;
 	margin: 5px;
+	border-radius: 5px;
+}
+
+#lft {
+	order: 3;
+}
+
+#link:hover {
+	background:GrayText;
 }
 
 #contact {
@@ -37,10 +281,49 @@
 
 
 .initial {
-	height: 500px;
+	height: 400px;
 	display: flex;
 	background: black;
 	color: white;
 	justify-content: center;
 	align-items: center;
 }
+
+.portfolio {
+	height: 400px;
+	background: black;
+	color: white;
+	
+}
+
+#prtf {
+	
+}
+
+.skills {
+	height: 400px;
+	background: grey;
+	color: white;
+}
+
+.portfolio-flex {
+	
+}
+
+.prtfcrd {
+	
+}
+
+#icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#code{
+	background: tomato;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+*/ 
